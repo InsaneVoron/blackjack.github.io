@@ -25,18 +25,37 @@
 		</div>
 
 		<div class="bj-board">
-			<div class="bj-control">
-				<div class="bj-control__bet">
-					<div class="bj-control__active"></div>
 
-					<ul>
-						<li>1</li>
-						<li>10</li>
-						<li>100</li>
-						<li>1000</li>
-						<li>5000</li>
-					</ul>
-				</div>
+			<div class="bj-board__bet">
+				<ul data-aos="fade-down">
+					<li>1<span></span></li>
+					<li>10<span></span></li>
+					<li>50<span></span></li>
+					<li>250<span></span></li>
+					<li>1000<span></span></li>
+					<li>5000<span></span></li>
+				</ul>
+			</div>
+
+			<div class="bj-board__control hidden">
+				<ul>
+					<li class="bj-control__double">
+						<h1><i class="fas fa-coins"></i></h1>
+						<p>Удвоить</p>
+					</li>
+					<li class="bj-control__more">
+						<h1><i class="fas fa-plus"></i></h1>
+						<p>Ещё</p>
+					</li>
+					<li class="bj-control__leave">
+						<h1><i class="fas fa-minus"></i></h1>
+						<p>Оставить</p>
+					</li>
+					<li class="bj-control__split">
+						<h1><i class="fas fa-arrows-alt-h"></i></h1>
+						<p>Разделить</p>
+					</li>
+				</ul>
 			</div>
 
 			<div class="bj-board__main">
@@ -48,7 +67,8 @@
 						<h1>Дилер</h1>
 					</div>
 					<div class="bj-board__hands">
-						<ul class="bj-board__list dealer"></ul>
+						<ul class="bj-board__list dealer">
+						</ul>
 					</div>
 				</div>
 
@@ -64,38 +84,7 @@
 					</div>
 				</div>
 			</div>
-
-			<div class="bj-control">
-				<div class="bj-control__choice">
-					<div class="bj-control__active"></div>
-
-					<ul>
-						<li class="bj-control__more">
-							<h1><i class="fas fa-plus"></i></h1>
-							<p>Ещё</p>
-						</li>
-						<li class="bj-control__leave">
-							<h1><i class="fas fa-minus"></i></h1>
-							<p>Оставить</p>
-						</li>
-<!-- 						<li class="bj-control__double">
-							<h1><i class="fas fa-coins"></i></h1>
-							<p>Удвоить</p>
-						</li>
-						<li class="bj-control__split">
-							<h1><i class="fas fa-arrows-alt-h"></i></h1>
-							<p>Разделить</p>
-						</li> -->
-					</ul>
-				</div>
-			</div>
 		</div>
-
-		<div class="bj-notice">
-			<div class="bj-notice__win"></div>
-			<div class="bj-notice__lost"></div>
-		</div>
-		
 	</div>
 
 	<!-- libs js -->

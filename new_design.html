@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!-- libs -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<!-- styles -->
+	<link rel="stylesheet" href="css/new_design.min.css">
+</head>
+<body>
+	<div id="wrapper">
+		
+		<div class="bj">
+			<header class="bj-header">
+				<div class="bj-header__logo">
+					<a href="">BlackJack!</a>
+				</div>
+				<div class="bj-header__balance">
+					<p></p>
+				</div>
+			</header>
+
+			<div class="bj-content">
+				<div class="bj-dealer">
+					<div class="bj-dealer__title">
+						<h3>Дилер</h3>
+					</div>
+					<div class="bj-dealer__card">
+						<div class="bj-dealer__person">
+							<img src="/img/dealer.jpeg" alt="Дилер">
+							<h1>ZZ</h1>
+						</div>
+						<div class="bj-dealer__hands">
+							<ul class="bj-dealer__cards">
+							</ul>
+							<div class="bj-dealer__hands-info">
+								<p class="bj-dealer__hands-sum">0</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bj-player">
+					<div class="bj-player__title">
+						<h3>Игрок</h3>
+					</div>
+					<div class="bj-player__card">
+						<div class="bj-player__person">
+							<img src="/img/player.jpg" alt="Дилер">
+							<h1>Ананасик</h1>
+						</div>
+						<div class="bj-player__hands">
+							<ul class="bj-player__cards">
+							</ul>
+							<div class="bj-player__hands-info">
+								<p class="bj-player__bet-value">0$</p>
+								<p class="bj-player__hands-sum">0</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="bj-chips">
+				<header class="bj-chips__header">
+					<h1>Сделайте ставку</h1>
+				</header>
+				<ul class="bj-chips__list">
+					<li class="white">1$</li>
+					<li class="red">5$</li>
+					<li class="green">25$</li>
+					<li class="black">100$</li>
+					<li class="purpure">500$</li>
+					<li class="lightblue">2000$</li>
+				</ul>
+			</div>
+			<div class="bj-actions hidden">
+				<header class="bj-chips__header">
+					<h1>Выбор за вами</h1>
+				</header>
+				<ul class="bj-actions__list">
+					<li class="bj-actions__double">
+						<h1 class="double"><i class="fas fa-coins"></i></h1>
+						<p>Удвоить</p>
+					</li>
+					<li class="bj-actions__more">
+						<h1 class="more"><i class="fas fa-plus"></i></h1>
+						<p>Ещё</p>
+					</li>
+					<li class="bj-actions__leave">
+						<h1 class="leave"><i class="fas fa-minus"></i></h1>
+						<p>Оставить</p>
+					</li>
+					<li class="bj-actions__split inactive">
+						<h1 class="split"><i class="fas fa-arrows-alt-h"></i></h1>
+						<p>Разделить</p>
+					</li>
+				</ul>
+			</div>
+			<div class="bj-result hidden">
+				<header class="bj-chips__header">
+					<h1>Рука дилера оказалась сильнее</h1>
+				</header>
+			</div>
+		</div>
+
+	</div>
+</body>
+
+<!-- script -->
+<script src="js/bj.js"></script>
+</html>

@@ -386,8 +386,8 @@ class Blackjack {
 		this.actions_block.classList.add('hidden');
 
 		const arr_winner = {
-			dealer: ["ZapahZamazki победил!", board.real_amount_dealer],
-			player: ["Ананасик победил!", board.amount_player],
+			dealer: ["Ананасик победил!", board.real_amount_dealer],
+			player: ["Вы победили!", board.amount_player],
 		};
 
 		if ( this.winner.tie ) {
